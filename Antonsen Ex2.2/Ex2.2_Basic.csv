@@ -1,0 +1,282 @@
+## System ID,Tag Name,Retentive Mode,Initial Value,MODBUS Start Address,MODBUS End Address,Number of Characters,Number of Rows,Number of Columns,Wiring Label,Comment,Forceable,Init Forced,Init Force Value
+## 2.0
+SBR-001008,"1 Minute Bit",false,"0",,,,,,,"On for 30 seconds and Off for 30 seconds",,,
+SBR-001009,"2 Second Bit",false,"0",,,,,,,"On for 1 second and Off for 1 second",,,
+AIS32-0.1.5.1,"AIS32-0.1.5.1",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.5.2,"AIS32-0.1.5.2",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.5.3,"AIS32-0.1.5.3",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.5.4,"AIS32-0.1.5.4",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.5.5,"AIS32-0.1.5.5",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.5.6,"AIS32-0.1.5.6",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.5.7,"AIS32-0.1.5.7",false,"0",,,,,,,,false,false,"0"
+AIS32-0.1.5.8,"AIS32-0.1.5.8",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.6.1,"AOS32-0.1.6.1",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.6.2,"AOS32-0.1.6.2",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.6.3,"AOS32-0.1.6.3",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.6.4,"AOS32-0.1.6.4",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.6.5,"AOS32-0.1.6.5",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.6.6,"AOS32-0.1.6.6",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.6.7,"AOS32-0.1.6.7",false,"0",,,,,,,,false,false,"0"
+AOS32-0.1.6.8,"AOS32-0.1.6.8",false,"0",,,,,,,,false,false,"0"
+SBR-001002,"Always Off Bit",false,"0",,,,,,,"always off",,,
+SBR-001017,"Array out of range error",false,"0",,,,,,,"On if an array index is outside the range of the array",,,
+SWR-001514,"Array range error rung location",false,"0",,,,,,,"Rung Number in which ""Array out of range error"" occurred",,,
+SWR-001513,"Array range error task location",false,"0",,,,,,,"Task Number in which ""Array out of range error"" occurred",,,
+SWR-001506,"Avg Logic Scan Time [x100=usec]",false,"0",,,,,,,"average logic scan time",,,
+SWR-001503,"Avg Scan Interval [x100=usec]",false,"0",,,,,,,"average overall scan time",,,
+SBR-001006,"Battery Disabled",false,"0",,,,,,,"On if the ""CPU Battery Alarm"" is disabled in H/W Configuration",,,
+SBR-001005,"Battery Low Bit",false,"0",,,,,,,"On if the battery is weak (""CPU Battery Alarm"" in H/W Configuration)",,,
+SWR-001518,"Battery Voltage",false,"0",,,,,,,"battery voltage in 10ths of a volt",,,
+SSTR-000041,"CPU Event Log String 01",false,,,,50,,,,"most recent CPU event log message",,,
+SSTR-000042,"CPU Event Log String 02",false,,,,50,,,,"2nd most recent CPU event log message",,,
+SSTR-000043,"CPU Event Log String 03",false,,,,50,,,,"3rd most recent CPU event log message",,,
+SSTR-000044,"CPU Event Log String 04",false,,,,50,,,,"4th most recent CPU event log message",,,
+SSTR-000045,"CPU Event Log String 05",false,,,,50,,,,"5th most recent CPU event log message",,,
+SSTR-000046,"CPU Event Log String 06",false,,,,50,,,,"6th most recent CPU event log message",,,
+SSTR-000047,"CPU Event Log String 07",false,,,,50,,,,"7th most recent CPU event log message",,,
+SSTR-000048,"CPU Event Log String 08",false,,,,50,,,,"8th most recent CPU event log message",,,
+SSTR-000049,"CPU Event Log String 09",false,,,,50,,,,"9th most recent CPU event log message",,,
+SSTR-000050,"CPU Event Log String 10",false,,,,50,,,,"10th most recent CPU event log message",,,
+SSTR-000051,"CPU Event Log String 11",false,,,,50,,,,"11th most recent CPU event log message",,,
+SSTR-000052,"CPU Event Log String 12",false,,,,50,,,,"12th most recent CPU event log message",,,
+SSTR-000053,"CPU Event Log String 13",false,,,,50,,,,"13th most recent CPU event log message",,,
+SSTR-000054,"CPU Event Log String 14",false,,,,50,,,,"14th most recent CPU event log message",,,
+SSTR-000055,"CPU Event Log String 15",false,,,,50,,,,"15th most recent CPU event log message",,,
+SSTR-000056,"CPU Event Log String 16",false,,,,50,,,,"16th most recent CPU event log message",,,
+SSTR-000057,"CPU Event Log String 17",false,,,,50,,,,"17th most recent CPU event log message",,,
+SSTR-000058,"CPU Event Log String 18",false,,,,50,,,,"18th most recent CPU event log message",,,
+SSTR-000059,"CPU Event Log String 19",false,,,,50,,,,"19th most recent CPU event log message",,,
+SSTR-000060,"CPU Event Log String 20",false,,,,50,,,,"20th most recent CPU event log message",,,
+SSTR-000101,"CPU Model Name",false,,,,50,,,,"CPU Model (ex: ""P3-550"")",,,
+SSTR-000102,"CPU Program File Name",false,,,,50,,,,"CPU program file name",,,
+SBR-001001,"CPU in Run",false,"0",,,,,,,"On during Run or Debug mode",,,
+SWR-001523,"Clock Day",false,"0",,,,,,,"current Real Time Clock Calendar Day",,,
+SWRW-001754,"Clock Day Set",false,"0",,,,,,,"new Real Time Clock Day (set all 3 date values then set ""Initiate_New_Date"" on)",,,
+SWR-001522,"Clock Day of Week",false,"0",,,,,,,"current Real Time Clock Day of the week (1=Mon ...7=Sun)",,,
+SWR-001521,"Clock Hours",false,"0",,,,,,,"current Real Time Clock Hours",,,
+SWRW-001753,"Clock Hours Set",false,"0",,,,,,,"new Real Time Clock Hours (set all 3 time values then set ""Initiate_New_Time"" on)",,,
+SWR-001520,"Clock Minutes",false,"0",,,,,,,"current Real Time Clock Minutes",,,
+SWRW-001752,"Clock Minutes Set",false,"0",,,,,,,"new Real Time Clock Minutes (set all 3 time values then set ""Initiate_New_Time"" on)",,,
+SWR-001524,"Clock Month",false,"0",,,,,,,"current Real Time Clock Calendar Month",,,
+SWRW-001755,"Clock Month Set",false,"0",,,,,,,"new Real Time Clock Month (set all 3 date values then set ""Initiate_New_Date"" on)",,,
+SWR-001519,"Clock Seconds",false,"0",,,,,,,"current Real Time Clock Seconds",,,
+SWRW-001751,"Clock Seconds Set",false,"0",,,,,,,"new Real Time Clock Seconds (set all 3 time values then set ""Initiate_New_Time"" on)",,,
+SWR-001525,"Clock Year",false,"0",,,,,,,"current Real Time Clock Calendar Year",,,
+SWRW-001756,"Clock Year Set",false,"0",,,,,,,"new Real Time Clock Year (set all 3 date values then set ""Initiate_New_Date"" on)",,,
+SBR-001012,"Critical Error Bit",false,"0",,,,,,,"On when a critical error is active",,,
+SWR-000001,"Critical Error Log 01",false,"0",,,,,,,"most recent critical error",,,
+SWR-000002,"Critical Error Log 02",false,"0",,,,,,,"2nd most recent critical error",,,
+SWR-000003,"Critical Error Log 03",false,"0",,,,,,,"3rd most recent critical error",,,
+SWR-000004,"Critical Error Log 04",false,"0",,,,,,,"4th most recent critical error",,,
+SWR-000005,"Critical Error Log 05",false,"0",,,,,,,"5th most recent critical error",,,
+SWR-000006,"Critical Error Log 06",false,"0",,,,,,,"6th most recent critical error",,,
+SWR-000007,"Critical Error Log 07",false,"0",,,,,,,"7th most recent critical error",,,
+SWR-000008,"Critical Error Log 08",false,"0",,,,,,,"8th most recent critical error",,,
+SWR-000009,"Critical Error Log 09",false,"0",,,,,,,"9th most recent critical error",,,
+SWR-000010,"Critical Error Log 10",false,"0",,,,,,,"10th most recent critical error",,,
+SWR-000011,"Critical Error Log 11",false,"0",,,,,,,"11th most recent critical error",,,
+SWR-000012,"Critical Error Log 12",false,"0",,,,,,,"12th most recent critical error",,,
+SWR-000013,"Critical Error Log 13",false,"0",,,,,,,"13th most recent critical error",,,
+SWR-000014,"Critical Error Log 14",false,"0",,,,,,,"14th most recent critical error",,,
+SWR-000015,"Critical Error Log 15",false,"0",,,,,,,"15th most recent critical error",,,
+SWR-000016,"Critical Error Log 16",false,"0",,,,,,,"16th most recent critical error",,,
+SWR-000017,"Critical Error Log 17",false,"0",,,,,,,"17th most recent critical error",,,
+SWR-000018,"Critical Error Log 18",false,"0",,,,,,,"18th most recent critical error",,,
+SWR-000019,"Critical Error Log 19",false,"0",,,,,,,"19th most recent critical error",,,
+SWR-000020,"Critical Error Log 20",false,"0",,,,,,,"20th most recent critical error",,,
+SSTR-000001,"Critical Error Log String 01",false,,,,50,,,,"most recent critical error message",,,
+SSTR-000002,"Critical Error Log String 02",false,,,,50,,,,"2nd most recent critical error message",,,
+SSTR-000003,"Critical Error Log String 03",false,,,,50,,,,"3rd most recent critical error message",,,
+SSTR-000004,"Critical Error Log String 04",false,,,,50,,,,"4th most recent critical error message",,,
+SSTR-000005,"Critical Error Log String 05",false,,,,50,,,,"5th most recent critical error message",,,
+SSTR-000006,"Critical Error Log String 06",false,,,,50,,,,"6th most recent critical error message",,,
+SSTR-000007,"Critical Error Log String 07",false,,,,50,,,,"7th most recent critical error message",,,
+SSTR-000008,"Critical Error Log String 08",false,,,,50,,,,"8th most recent critical error message",,,
+SSTR-000009,"Critical Error Log String 09",false,,,,50,,,,"9th most recent critical error message",,,
+SSTR-000010,"Critical Error Log String 10",false,,,,50,,,,"10th most recent critical error message",,,
+SSTR-000011,"Critical Error Log String 11",false,,,,50,,,,"11th most recent critical error message",,,
+SSTR-000012,"Critical Error Log String 12",false,,,,50,,,,"12th most recent critical error message",,,
+SSTR-000013,"Critical Error Log String 13",false,,,,50,,,,"13th most recent critical error message",,,
+SSTR-000014,"Critical Error Log String 14",false,,,,50,,,,"14th most recent critical error message",,,
+SSTR-000015,"Critical Error Log String 15",false,,,,50,,,,"15th most recent critical error message",,,
+SSTR-000016,"Critical Error Log String 16",false,,,,50,,,,"16th most recent critical error message",,,
+SSTR-000017,"Critical Error Log String 17",false,,,,50,,,,"17th most recent critical error message",,,
+SSTR-000018,"Critical Error Log String 18",false,,,,50,,,,"18th most recent critical error message",,,
+SSTR-000019,"Critical Error Log String 19",false,,,,50,,,,"19th most recent critical error message",,,
+SSTR-000020,"Critical Error Log String 20",false,,,,50,,,,"20th most recent critical error message",,,
+SWR-001510,"Current Critical Error",false,"0",,,,,,,"current critical error number",,,
+SWR-001516,"Current I/O Config Error Base",false,"0",,,,,,,"I/O base in which ""I/O Configuration Error"" occurred",,,
+SWR-001515,"Current I/O Config Error Group",false,"0",,,,,,,"I/O group in which ""I/O Configuration Error"" occurred",,,
+SWR-001517,"Current I/O Config Error Slot",false,"0",,,,,,,"I/O slot in which ""I/O Configuration Error"" occurred",,,
+SWR-001511,"Current Non-critical Error",false,"0",,,,,,,"current noncritical error number",,,
+DI-0.1.1.3,"DI-0.1.1.3",false,"0",,,,,,,,false,false,"0"
+DI-0.1.1.4,"DI-0.1.1.4",false,"0",,,,,,,,false,false,"0"
+DI-0.1.1.5,"DI-0.1.1.5",false,"0",,,,,,,,false,false,"0"
+DI-0.1.1.6,"DI-0.1.1.6",false,"0",,,,,,,,false,false,"0"
+DI-0.1.1.7,"DI-0.1.1.7",false,"0",,,,,,,,false,false,"0"
+DI-0.1.1.8,"DI-0.1.1.8",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.1,"DI-0.1.2.1",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.10,"DI-0.1.2.10",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.11,"DI-0.1.2.11",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.12,"DI-0.1.2.12",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.13,"DI-0.1.2.13",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.14,"DI-0.1.2.14",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.15,"DI-0.1.2.15",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.16,"DI-0.1.2.16",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.2,"DI-0.1.2.2",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.3,"DI-0.1.2.3",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.4,"DI-0.1.2.4",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.5,"DI-0.1.2.5",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.6,"DI-0.1.2.6",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.7,"DI-0.1.2.7",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.8,"DI-0.1.2.8",false,"0",,,,,,,,false,false,"0"
+DI-0.1.2.9,"DI-0.1.2.9",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.10,"DO-0.1.3.10",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.11,"DO-0.1.3.11",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.12,"DO-0.1.3.12",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.13,"DO-0.1.3.13",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.14,"DO-0.1.3.14",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.15,"DO-0.1.3.15",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.16,"DO-0.1.3.16",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.2,"DO-0.1.3.2",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.3,"DO-0.1.3.3",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.4,"DO-0.1.3.4",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.5,"DO-0.1.3.5",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.6,"DO-0.1.3.6",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.7,"DO-0.1.3.7",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.8,"DO-0.1.3.8",false,"0",,,,,,,,false,false,"0"
+DO-0.1.3.9,"DO-0.1.3.9",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.1,"DO-0.1.4.1",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.2,"DO-0.1.4.2",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.3,"DO-0.1.4.3",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.4,"DO-0.1.4.4",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.5,"DO-0.1.4.5",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.6,"DO-0.1.4.6",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.7,"DO-0.1.4.7",false,"0",,,,,,,,false,false,"0"
+DO-0.1.4.8,"DO-0.1.4.8",false,"0",,,,,,,,false,false,"0"
+SWR-001526,"Ethernet Speed [External]",false,"0",,,,,,,"""Ethernet"" port speed (Ethernet 10 or 100)",,,
+SWR-001527,"Ethernet Speed [Internal]",false,"0",,,,,,,"""Remote I/O"" port speed (Ethernet 10 or 100)",,,
+SBR-001004,"Every Other Scan Bit",false,"0",,,,,,,"toggles at the start of each scan",,,
+SWR-001509,"Firmware Version",false,"0",,,,,,,"CPU Firmware Version Number in Hex (ex: 0x0102 is version 01.02 or 1.2)",,,
+SSTR-000104,"Firmware Version[CPU]",false,,,,50,,,,"CPU firmware version viewed as 001.000.009.023",,,
+SWR-001528,"Firmware Version[major]",false,"0",,,,,,,"CPU firmware Major version number in hex. (ex:  0x0100 =  major version 1.0)",,,
+SWR-001529,"Firmware Version[minor]",false,"0",,,,,,,"CPU firmware Minor version number in hex. (ex: 0x0917 = minor version 9.23)",,,
+SBR-001003,"First Scan Bit",false,"0",,,,,,,"On during first scan in Run or Debug mode",,,
+SWR-001530,"First Scan Interval [x100=usec]",false,"0",,,,,,,"Holds the value of the First Scan time",,,
+SBR-001007,"Forces Enabled",false,"0",,,,,,,"On if any forces are enabled",,,
+SBR-001015,"I/O Configuration Error",false,"0",,,,,,,"On if actual I/O configuration and project I/O configuration do not match",,,
+SBR-001014,"I/O Error",false,"0",,,,,,,"On for any module error (such as a blown fuse)",,,
+SWRW-001758,"Identify Module Base Number",false,"0",,,,,,,"base number of module to be identified (See ""Requested Module Name"" tag)",,,
+SWRW-001757,"Identify Module Group Number",false,"0",,,,,,,"group number of module to be identified (See ""Requested Module Name"" tag)",,,
+SBRW-001005,"Identify Module Request bit",false,"0",,,,,,,"set On to refresh ""Requested Module Name"" tag per the 3 ""Identify"" GBS tags",,,
+SWRW-001759,"Identify Module Slot Number",false,"0",,,,,,,"slot number of module to be identified (See ""Requested Module Name"" tag)",,,
+SBRW-001002,"Initiate_New_Date",false,"0",,,,,,,"set On to change clock date (see ""Clock Year Set"" tag)",,,
+SBRW-001001,"Initiate_New_Time",false,"0",,,,,,,"set On to change clock time (see ""Clock Hours Set"" tag)",,,
+SWR-001504,"Last Logic Scan Time [x100=usec]",false,"0",,,,,,,"most recent logic scan time",,,
+SWR-001501,"Last Scan Interval [x100=usec]",false,"0",,,,,,,"most recent overall scan time",,,
+MST-0.0.0.1,"MST-0.0.0.1",false,"0",,,,,,,"RS232 Heartbeat Timeout Bit",false,false,"0"
+MST-0.0.0.2,"MST-0.0.0.2",false,"0",,,,,,,"RS232 Port Buffer Full Bit (95% Full)",false,false,"0"
+MST-0.0.0.3,"MST-0.0.0.3",false,"0",,,,,,,"RS232 Port Ready Bit",false,false,"0"
+MST-0.0.0.33,"MST-0.0.0.33",false,"0",,,,,,,"RS485 Heartbeat Timeout Bit",false,false,"0"
+MST-0.0.0.34,"MST-0.0.0.34",false,"0",,,,,,,"RS485 Port Buffer Full Bit (95% Full)",false,false,"0"
+MST-0.0.0.35,"MST-0.0.0.35",false,"0",,,,,,,"RS485 Port Ready Bit",false,false,"0"
+MST-0.0.0.65,"MST-0.0.0.65",false,"0",,,,,,,"Ethernet Heartbeat Timeout Bit",false,false,"0"
+MST-0.0.0.66,"MST-0.0.0.66",false,"0",,,,,,,"Ethernet Port Buffer Full Bit (95% Full)",false,false,"0"
+MST-0.0.0.67,"MST-0.0.0.67",false,"0",,,,,,,"Ethernet Port Ready Bit",false,false,"0"
+MST-0.1.3.1,"MST-0.1.3.1",false,"0",,,,,,,"Fault (1)",false,false,"0"
+MST-0.1.3.10,"MST-0.1.3.10",false,"0",,,,,,,"Fault (10)",false,false,"0"
+MST-0.1.3.11,"MST-0.1.3.11",false,"0",,,,,,,"Fault (11)",false,false,"0"
+MST-0.1.3.12,"MST-0.1.3.12",false,"0",,,,,,,"Fault (12)",false,false,"0"
+MST-0.1.3.13,"MST-0.1.3.13",false,"0",,,,,,,"Fault (13)",false,false,"0"
+MST-0.1.3.14,"MST-0.1.3.14",false,"0",,,,,,,"Fault (14)",false,false,"0"
+MST-0.1.3.15,"MST-0.1.3.15",false,"0",,,,,,,"Fault (15)",false,false,"0"
+MST-0.1.3.16,"MST-0.1.3.16",false,"0",,,,,,,"Fault (16)",false,false,"0"
+MST-0.1.3.17,"MST-0.1.3.17",false,"0",,,,,,,"Missing 24V",false,false,"0"
+MST-0.1.3.2,"MST-0.1.3.2",false,"0",,,,,,,"Fault (2)",false,false,"0"
+MST-0.1.3.3,"MST-0.1.3.3",false,"0",,,,,,,"Fault (3)",false,false,"0"
+MST-0.1.3.4,"MST-0.1.3.4",false,"0",,,,,,,"Fault (4)",false,false,"0"
+MST-0.1.3.5,"MST-0.1.3.5",false,"0",,,,,,,"Fault (5)",false,false,"0"
+MST-0.1.3.6,"MST-0.1.3.6",false,"0",,,,,,,"Fault (6)",false,false,"0"
+MST-0.1.3.7,"MST-0.1.3.7",false,"0",,,,,,,"Fault (7)",false,false,"0"
+MST-0.1.3.8,"MST-0.1.3.8",false,"0",,,,,,,"Fault (8)",false,false,"0"
+MST-0.1.3.9,"MST-0.1.3.9",false,"0",,,,,,,"Fault (9)",false,false,"0"
+MST-0.1.5.25,"MST-0.1.5.25",false,"0",,,,,,,"Module Failed",false,false,"0"
+MST-0.1.5.26,"MST-0.1.5.26",false,"0",,,,,,,"Missing 24V",false,false,"0"
+MST-0.1.5.57,"MST-0.1.5.57",false,"0",,,,,,,"Under Range Error (1)",false,false,"0"
+MST-0.1.5.58,"MST-0.1.5.58",false,"0",,,,,,,"Under Range Error (2)",false,false,"0"
+MST-0.1.5.59,"MST-0.1.5.59",false,"0",,,,,,,"Under Range Error (3)",false,false,"0"
+MST-0.1.5.60,"MST-0.1.5.60",false,"0",,,,,,,"Under Range Error (4)",false,false,"0"
+MST-0.1.5.61,"MST-0.1.5.61",false,"0",,,,,,,"Under Range Error (5)",false,false,"0"
+MST-0.1.5.62,"MST-0.1.5.62",false,"0",,,,,,,"Under Range Error (6)",false,false,"0"
+MST-0.1.5.63,"MST-0.1.5.63",false,"0",,,,,,,"Under Range Error (7)",false,false,"0"
+MST-0.1.5.64,"MST-0.1.5.64",false,"0",,,,,,,"Under Range Error (8)",false,false,"0"
+MST-0.1.5.89,"MST-0.1.5.89",false,"0",,,,,,,"Over Range Error (1)",false,false,"0"
+MST-0.1.5.90,"MST-0.1.5.90",false,"0",,,,,,,"Over Range Error (2)",false,false,"0"
+MST-0.1.5.91,"MST-0.1.5.91",false,"0",,,,,,,"Over Range Error (3)",false,false,"0"
+MST-0.1.5.92,"MST-0.1.5.92",false,"0",,,,,,,"Over Range Error (4)",false,false,"0"
+MST-0.1.5.93,"MST-0.1.5.93",false,"0",,,,,,,"Over Range Error (5)",false,false,"0"
+MST-0.1.5.94,"MST-0.1.5.94",false,"0",,,,,,,"Over Range Error (6)",false,false,"0"
+MST-0.1.5.95,"MST-0.1.5.95",false,"0",,,,,,,"Over Range Error (7)",false,false,"0"
+MST-0.1.5.96,"MST-0.1.5.96",false,"0",,,,,,,"Over Range Error (8)",false,false,"0"
+MST-0.1.6.25,"MST-0.1.6.25",false,"0",,,,,,,"Module Failed",false,false,"0"
+MST-0.1.6.26,"MST-0.1.6.26",false,"0",,,,,,,"Missing 24V",false,false,"0"
+SBR-001013,"Noncritical Error Bit",false,"0",,,,,,,"On when a noncritical error is active",,,
+SWR-000021,"Noncritical Error Log 01",false,"0",,,,,,,"most recent noncritical error",,,
+SWR-000022,"Noncritical Error Log 02",false,"0",,,,,,,"2nd most recent noncritical error",,,
+SWR-000023,"Noncritical Error Log 03",false,"0",,,,,,,"3rd most recent noncritical error",,,
+SWR-000024,"Noncritical Error Log 04",false,"0",,,,,,,"4th most recent noncritical error",,,
+SWR-000025,"Noncritical Error Log 05",false,"0",,,,,,,"5th most recent noncritical error",,,
+SWR-000026,"Noncritical Error Log 06",false,"0",,,,,,,"6th most recent noncritical error",,,
+SWR-000027,"Noncritical Error Log 07",false,"0",,,,,,,"7th most recent noncritical error",,,
+SWR-000028,"Noncritical Error Log 08",false,"0",,,,,,,"8th most recent noncritical error",,,
+SWR-000029,"Noncritical Error Log 09",false,"0",,,,,,,"9th most recent noncritical error",,,
+SWR-000030,"Noncritical Error Log 10",false,"0",,,,,,,"10th most recent noncritical error",,,
+SWR-000031,"Noncritical Error Log 11",false,"0",,,,,,,"11th most recent noncritical error",,,
+SWR-000032,"Noncritical Error Log 12",false,"0",,,,,,,"12th most recent noncritical error",,,
+SWR-000033,"Noncritical Error Log 13",false,"0",,,,,,,"13th most recent noncritical error",,,
+SWR-000034,"Noncritical Error Log 14",false,"0",,,,,,,"14th most recent noncritical error",,,
+SWR-000035,"Noncritical Error Log 15",false,"0",,,,,,,"15th most recent noncritical error",,,
+SWR-000036,"Noncritical Error Log 16",false,"0",,,,,,,"16th most recent noncritical error",,,
+SWR-000037,"Noncritical Error Log 17",false,"0",,,,,,,"17th most recent noncritical error",,,
+SWR-000038,"Noncritical Error Log 18",false,"0",,,,,,,"18th most recent noncritical error",,,
+SWR-000039,"Noncritical Error Log 19",false,"0",,,,,,,"19th most recent noncritical error",,,
+SWR-000040,"Noncritical Error Log 20",false,"0",,,,,,,"20th most recent noncritical error",,,
+SSTR-000021,"Noncritical Error Log String 01",false,,,,50,,,,"most recent noncritical error message",,,
+SSTR-000022,"Noncritical Error Log String 02",false,,,,50,,,,"2nd most recent noncritical error message",,,
+SSTR-000023,"Noncritical Error Log String 03",false,,,,50,,,,"3rd most recent noncritical error message",,,
+SSTR-000024,"Noncritical Error Log String 04",false,,,,50,,,,"4th most recent noncritical error message",,,
+SSTR-000025,"Noncritical Error Log String 05",false,,,,50,,,,"5th most recent noncritical error message",,,
+SSTR-000026,"Noncritical Error Log String 06",false,,,,50,,,,"6th most recent noncritical error message",,,
+SSTR-000027,"Noncritical Error Log String 07",false,,,,50,,,,"7th most recent noncritical error message",,,
+SSTR-000028,"Noncritical Error Log String 08",false,,,,50,,,,"8th most recent noncritical error message",,,
+SSTR-000029,"Noncritical Error Log String 09",false,,,,50,,,,"9th most recent noncritical error message",,,
+SSTR-000030,"Noncritical Error Log String 10",false,,,,50,,,,"10th most recent noncritical error message",,,
+SSTR-000031,"Noncritical Error Log String 11",false,,,,50,,,,"11th most recent noncritical error message",,,
+SSTR-000032,"Noncritical Error Log String 12",false,,,,50,,,,"12th most recent noncritical error message",,,
+SSTR-000033,"Noncritical Error Log String 13",false,,,,50,,,,"13th most recent noncritical error message",,,
+SSTR-000034,"Noncritical Error Log String 14",false,,,,50,,,,"14th most recent noncritical error message",,,
+SSTR-000035,"Noncritical Error Log String 15",false,,,,50,,,,"15th most recent noncritical error message",,,
+SSTR-000036,"Noncritical Error Log String 16",false,,,,50,,,,"16th most recent noncritical error message",,,
+SSTR-000037,"Noncritical Error Log String 17",false,,,,50,,,,"17th most recent noncritical error message",,,
+SSTR-000038,"Noncritical Error Log String 18",false,,,,50,,,,"18th most recent noncritical error message",,,
+SSTR-000039,"Noncritical Error Log String 19",false,,,,50,,,,"19th most recent noncritical error message",,,
+SSTR-000040,"Noncritical Error Log String 20",false,,,,50,,,,"20th most recent noncritical error message",,,
+SWRW-000251,"Number of Critical Errors",false,"0",,,,,,,"number of critical errors",,,
+SWRW-000252,"Number of Non-critical Errors",false,"0",,,,,,,"number of noncritical errors",,,
+DO-0.1.3.1,"P1",false,"0",,,,,,,,false,false,"0"
+SSTR-000105,"PLC LCD Display[CPU]",false,,,,50,,,,"PLC LCD Data Display",,,
+SWR-001505,"Peak Logic Scan Time [x100=usec]",false,"0",,,,,,,"longest logic scan time",,,
+SWR-001502,"Peak Scan Interval [x100=usec]",false,"0",,,,,,,"longest overall scan time",,,
+SBRW-001006,"Portable Memory Device Eject",false,"0",,,,,,,"Users set to 1(ON) and the system reset to 0 as eject is completed",,,
+SBR-000001,"Portable Memory Device Ready",false,"0",,,,,,,"PMD is installed and ready to use",,,
+SWR-001512,"Program Memory Size",false,"0",,,,,,,"current percentage of CPU memory used by the project",,,
+SBRW-001003,"Refresh Critical Error Log",false,"0",,,,,,,"set On to refresh the ""Critical Error Log""",,,
+SBRW-001004,"Refresh Non-Critical Error Log",false,"0",,,,,,,"set On to refresh the ""Noncritical Error Log""",,,
+SSTR-000103,"Requested Module Name",false,,,,50,,,,"name of specified module (see ""Identify Module Request bit"")",,,
+DI-0.1.1.1,"S1",false,"0",,,,,,,,false,false,"0"
+DI-0.1.1.2,"S2",false,"0",,,,,,,,false,false,"0"
+SBR-001010,"Switch in Run Bit",false,"0",,,,,,,"On if CPU Switch is up (Run)",,,
+SBR-001011,"Switch in Stop Bit",false,"0",,,,,,,"On if CPU Switch is down (Stop)",,,
+SWR-001507,"Total Scan Count1",false,"0",,,,,,,"total number of scans since entering Run mode (S32 low word)",,,
+SWR-001508,"Total Scan Count2",false,"0",,,,,,,"total number of scans since entering Run mode (S32 high word)",,,
+SBR-001016,"Watchdog Timeout",false,"0",,,,,,,"On if the actual scan time has exceeded the limit set in the project",,,
